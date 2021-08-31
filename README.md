@@ -6,6 +6,6 @@
 > Para auxiliar de forma clara e objetiva, como usar o git, com foco em quem esta iniciando com o git
 ### Como acessar?
 > Acesse atravez do link: 
-> [Flex Grid](https://melyschr.github.io/git_comandos)
+> [Git Comandos](https://melyschr.github.io/git_comandos)
 ### Contrubuições
 @melyschr
