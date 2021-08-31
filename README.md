@@ -1,4 +1,4 @@
-# Git - Comandos (site)
+# Git - Comandos
 ## Principais comandos do git
 ### O que é?
 > Um site simples, explicando como funciona o GIT, como criar repositorios e os comandos mais usados.
