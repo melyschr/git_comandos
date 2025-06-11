@@ -6,60 +6,80 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container-all">
-		<h1 >GIT - Principais Comandos</h1>
-		<br>
-		<h2>Afinal, o que é o git e para que ele serve?</h2>
-		<p class="paragraph">
-			Git é um controle de versionamento de codigos e projetos, e serve para controlar as auterações feira codigo por versões,  podendo armazena-las alem de outros recursos, como voltar a um estado ou versão anterior do codigo, sendo uma ferramenta muito importante para qualquer desenvolvedor ou programador.
-		</p>
-		<br>
-	<!--1-->
-		<h2>1 - Alguns comandos basicos</h2>
-		<ul>
-			<p>Navegando nas pastas do seu computador no git bash (Windows)</p>
-			<li>
-				cd  C:/Users/ (entrar no diretorio escolhido)<br>
-				cd  ../ (voltar um diretorio)
-			</li>
-			<p>Criar pastas</p>
-			<li>mkdir nomepasta</li>
-			<p>Listar arquivos</p>
-			<li>ls<br>
-				dir<br>
-				tree /f
-			</li>
-		</ul>
+	<header>
 
+	</header>
+	<nav>
 
-
-
-	<!--2-->
-		<h2>2 - Configurando o Git</h2>
-		<p>
-			Alguns primeiros comandos que fazemos ao baixar o git, é configura-lo com nossas informações:
-		</p>
-		<ul>
-			<p>Adicionando seu nome de usuario</p>
-			<li>git config --global user.name "seu nome"</li>
-			<p>Adicionando email da sua conta</p>
-			<li>git config --global user.email "seuemail@email.com" (email da sua conta do github)</li>
-			<p>Adicionando seu editor de código/texto</p>
-			<li>git config --global core.editor sub (no meu caso sub = sublime text)</li>
-		</ul>
-	<!--3-->
-		<h2>3 - Criando Repositório</h2>
-		<ul>
-			<p>Iniciar repositorio, na pasta ja escolhida para o seu repositório</p>
-			<li>git init</li>
-			<p>Adicionar arquivos ao monitoramento git</p>
-			<li>
-				git add nome.extensão;<br>
-				git add -A (todos)
-			</li>
-			<p>Enviar e salvar alterações dos arquivos adicionados no git, em versões</p>
-			<li>git commit -m "Comentario do commit feito"</li>
-		</ul>
-	</div>
+	</nav>
+	<main>
+		<div class="container-all">
+			<h1 >GIT - Principais Comandos</h1>
+			<br>
+			<h2 class="subtitle">Afinal, o que é o git e para que ele serve?</h2>
+			<p>
+				Git é um controle de versionamento de codigos e projetos, e serve para controlar as auterações feira codigo por versões,  podendo armazena-las alem de outros recursos, como voltar a um estado ou versão anterior do codigo, sendo uma ferramenta muito importante para qualquer desenvolvedor ou programador.
+			</p>
+		</div>
+		<section class="topics">
+			<!--1-->
+			<h2 class="subtitle">1 - Alguns comandos basicos</h2>
+			<ul>
+				<p>Navegando nas pastas do seu computador no git bash (Windows)</p>
+				<li>
+					cd  C:/Users/ (entrar no diretorio escolhido)<br>
+					cd  ../ (voltar um diretorio)
+				</li>
+				<p>Criar pastas</p>
+				<li>mkdir nomepasta</li>
+				<p>Listar arquivos</p>
+				<li>ls<br>
+					dir<br>
+					tree /f
+				</li>
+			</ul>
+		</section>
+		<section class="topics">
+		<!--2-->
+			<h2 class="subtitle">2 - Configurando o Git</h2>
+			<p>
+				Alguns primeiros comandos que fazemos ao baixar o git, é configura-lo com nossas informações:
+			</p>
+			<ul>
+				<p>Adicionando seu nome de usuario</p>
+				<li>git config --global user.name "seu nome"</li>
+				<p>Adicionando email da sua conta</p>
+				<li>git config --global user.email "seuemail@email.com" (email da sua conta do github)</li>
+				<p>Adicionando seu editor de código/texto</p>
+				<li>git config --global core.editor sub (no meu caso sub = sublime text)</li>
+			</ul>
+		</section>
+		<section class="topics">
+			<!--3-->
+			<h2 class="subtitle">3 - Criando Repositório</h2>
+			<ul>
+				<p>Iniciar repositorio, na pasta ja escolhida para o seu repositório</p>
+				<li>git init</li>
+				<p>Adicionar arquivos ao monitoramento git</p>
+				<li>
+					git add nome.extensão;<br>
+					git add -A (todos)
+				</li>
+				<p>Enviar e salvar alterações dos arquivos adicionados no git, em versões</p>
+				<li>git commit -m "Comentario do commit feito"</li>
+			</ul>
+		</section>
+		<section class="topics">
+			<!--3-->
+			<h2 class="subtitle">4 - Como fazer commits</h2>
+			<p>Ok, até agora aprendemos a iniciar nossos repositorios, agora vamos entender como atualizar as versões do seu codigo realizando um commit!</p>
+			<p>e de bonus, iremos entender as melhores praticas para realizar um :D</p>
+				
+			<ul>
+				<p>Principal comando para comitar seu codigo:</p>
+				<p>Salvar alterações dos arquivos adicionados no git, em versões</p>
+				<li>git commit -m "Comentario do commit feito"</li>
+			</ul>
+		</section>
 </body>
 </html>
